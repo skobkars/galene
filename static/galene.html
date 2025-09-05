@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="ScreenOrientation" content="autoRotate:disabled">
+    <meta name="google" content="notranslate">
     <link rel="stylesheet" type="text/css" href="/common.css"/>
     <link rel="stylesheet" type="text/css" href="/galene.css"/>
     <link rel="author" href="https://www.irif.fr/~jch/"/>
@@ -13,6 +14,7 @@
     <link rel="stylesheet" type="text/css" href="/third-party/fontawesome/css/regular.min.css"/>
     <link rel="stylesheet" type="text/css" href="/third-party/toastify/toastify.css"/>
     <link rel="stylesheet" type="text/css" href="/third-party/contextual/contextual.css"/>
+    <script src="/translation/translate.js" defer></script>
   </head>
 
   <body>
@@ -118,7 +120,7 @@
                     <label>Enable at start:</label>
                     <div class="present-switch">
                       <p class="switch-radio">
-                        <input id="presentoff" type="radio" name="presentradio" value="" checked/>
+                        <input id="presentoff" type="radio" name="presentradio" value=""/>
                         <label for="presentoff">Nothing</label>
                       </p>
                       <p class="switch-radio">
@@ -126,7 +128,7 @@
                         <label for="presentmike">Microphone</label>
                       </p>
                       <p class="switch-radio">
-                        <input id="presentboth" type="radio" name="presentradio" value="both"/>
+                        <input id="presentboth" type="radio" name="presentradio" value="both" checked/>
                         <label for="presentboth">Camera and microphone</label>
                       </p>
                     </div>
